@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>DOMO - Desafío</title>
+</head>
+<body>
+   
+    <header class="container">
+        <nav class="w-100 d-flex justify-content-between nav">
+            <div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 16 16"><path d="M9.294 6.928L14.357 1h-1.2L8.762 6.147L5.25 1H1.2l5.31 7.784L1.2 15h1.2l4.642-5.436L10.751 15h4.05zM7.651 8.852l-.538-.775L2.832 1.91h1.843l3.454 4.977l.538.775l4.491 6.47h-1.843z"/></svg>
+                    </li>
+                    <li class="nav-item">
+                        <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"/></svg>
+                    </li>
+                    <li class="nav-item">
+                        <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="-2 -2 24 24"><path d="M19.959 11.719v7.379h-4.278v-6.885c0-1.73-.619-2.91-2.167-2.91c-1.182 0-1.886.796-2.195 1.565c-.113.275-.142.658-.142 1.043v7.187h-4.28s.058-11.66 0-12.869h4.28v1.824l-.028.042h.028v-.042c.568-.875 1.583-2.126 3.856-2.126c2.815 0 4.926 1.84 4.926 5.792M2.421.026C.958.026 0 .986 0 2.249c0 1.235.93 2.224 2.365 2.224h.028c1.493 0 2.42-.989 2.42-2.224C4.787.986 3.887.026 2.422.026zM.254 19.098h4.278V6.229H.254z"/></svg>
+                    </li>
+                    <li class="nav-item">
+                        <svg class="nav-icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 42 42"><path d="M21 1C9.954 1 1 9.954 1 21s8.954 20 20 20s20-8.954 20-20S32.046 1 21 1m0 2.898c4.357 0 8.334 1.63 11.354 4.312c-2.219 2.927-5.59 4.876-8.968 6.195a89 89 0 0 0-6.415-10.03a17 17 0 0 1 4.03-.477zm-7.276 1.62c2.23 3.336 4.39 6.429 6.363 9.93c-4.99 1.293-10.629 2.069-15.838 2.082c1.098-5.328 4.677-9.752 9.475-12.011zm20.527 4.67a17.03 17.03 0 0 1 3.851 10.699c-3.956-.78-7.89-.984-11.896-.58c-.45-1.123-.996-2.19-1.519-3.34c3.453-1.393 7.145-3.777 9.564-6.78zm-12.775 7.906c.428.91.924 1.876 1.39 2.863c-5.57 2.456-11.495 5.738-14.57 11.492a17.04 17.04 0 0 1-4.39-11.95c5.965-.028 11.82-.774 17.57-2.405m9.038 4.663a29.2 29.2 0 0 1 7.375.95a17.1 17.1 0 0 1-7.347 11.487c-.918-4.175-1.793-8.17-3.34-12.198a23 23 0 0 1 3.311-.24zm7.464.31q-.017.146-.037.29q.02-.145.037-.29m-13.94.71c1.576 4.073 2.813 8.583 3.643 12.972a17.05 17.05 0 0 1-6.68 1.354a17.03 17.03 0 0 1-10.495-3.6c3.097-5.024 7.894-8.826 13.531-10.725z"/></svg>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-logo-container">
+                <svg class="nav-logo" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 16 16"><path fill="#cccccc" d="M8 4.736a.933.933 0 0 1-.933-.933V1.005a.933.933 0 0 1 1.866 0v2.798A.933.933 0 0 1 8 4.736m0 10.841a.583.583 0 0 1-.583-.583v-2.798a.583.583 0 1 1 1.166 0v2.798a.583.583 0 0 1-.583.583M5.902 5.24a.88.88 0 0 1-.758-.437L3.745 2.38a.874.874 0 0 1 1.514-.874l1.399 2.423a.874.874 0 0 1-.756 1.311m5.596 9.342a.53.53 0 0 1-.455-.262l-1.399-2.423a.525.525 0 1 1 .909-.525l1.399 2.423a.525.525 0 0 1-.454.787M4.365 6.718a.8.8 0 0 1-.407-.109L1.535 5.21a.817.817 0 0 1 .816-1.414l2.423 1.399a.817.817 0 0 1-.408 1.523zm9.692 5.246a.46.46 0 0 1-.233-.063l-2.423-1.399a.467.467 0 0 1 .466-.808l2.423 1.399a.467.467 0 0 1-.233.87zM3.803 8.758H1.005a.758.758 0 0 1 0-1.516h2.798a.758.758 0 1 1 0 1.516m11.192-.292h-2.798a.466.466 0 1 1 0-.932h2.798a.466.466 0 1 1 0 .932M1.943 12.197a.698.698 0 0 1-.35-1.305l2.423-1.399a.698.698 0 1 1 .699 1.211l-2.423 1.399a.7.7 0 0 1-.349.094m9.692-5.829a.466.466 0 0 1-.233-.87l2.423-1.399a.466.466 0 1 1 .466.808l-2.423 1.399a.5.5 0 0 1-.233.063zm-7.133 8.331a.64.64 0 0 1-.555-.962l1.399-2.423a.641.641 0 1 1 1.111.641l-1.399 2.423a.64.64 0 0 1-.556.321m5.596-9.867a.467.467 0 0 1-.404-.7l1.399-2.423a.467.467 0 0 1 .808.466l-1.399 2.423a.46.46 0 0 1-.404.233z"/></svg>
+                <p class="nav-logo-title">Comet</p>
+            </div>
+            <div class="nav-menu-container">
+                <div class="nav-menu">
+                    <span class="nav-menu-bar nav-menu-bar-1"></span>
+                    <span class="nav-menu-bar nav-menu-bar-2"></span>
+                </div>
+                
+            </div>
+        </nav>
+        <section class="hero row">
+            <div class="col hero-left">
+                <div class="hero-text-container">
+                    <p class="hero-pre-title">Core features</p>
+                    <h1 class="hero-title">Develop systematically<br/>with Comet.</h1>
+                    <h2 class="hero-subtitle">
+                        <span class="hero-subtitle-bold">Adaptable sections are ideal</span> for crafting<br/>versatile layouts.
+                    </h2>
+                </div>
+                <div class="hero-card-container">
+                    <div class="hero-card">
+                        <div class="fingerprint-container">
+                            <img class="fingerprint-icon hero-card-icon" src="./images/fingerprint.png" alt="Fingerprint icon">
+                        </div>
+                        
+                        <h3 class="hero-card-title">System analyze your<br/>data</h3>
+                        <p class="hero-card-paragraph">
+                            Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.
+                        </p>
+                        <button class="hero-button">
+                           Learn more
+                           <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"><path d="m16 8.4l-8.9 8.9q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7L14.6 7H7q-.425 0-.712-.288T6 6t.288-.712T7 5h10q.425 0 .713.288T18 6v10q0 .425-.288.713T17 17t-.712-.288T16 16z"/></svg>
+                        </button>
+                    </div>
+                    <div class="hero-card">
+                        <div class="phone-container">
+                            <span class="phone-icon-number">24</span>
+                            <svg class="phone-icon-blob" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M77,66Q60,82,35,80.5Q10,79,21.5,58Q33,37,47,26Q61,15,77.5,32.5Q94,50,77,66Z" stroke="none" stroke-width="0" fill="#F8E7F9"></path></svg>
+                            <svg class="phone-icon hero-card-icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"><path fill="none" stroke="#C65BD8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.502 4.257A2 2 0 0 0 7.646 3H4.895A1.895 1.895 0 0 0 3 4.895C3 13.789 10.21 21 19.106 21A1.895 1.895 0 0 0 21 19.105v-2.751a2 2 0 0 0-1.257-1.857l-2.636-1.054a2 2 0 0 0-2.023.32l-.68.568a2 2 0 0 1-2.696-.122L9.792 12.29a2 2 0 0 1-.123-2.694l.567-.68a2 2 0 0 0 .322-2.024z"/></svg>
+                        </div>
+                        <h3 class="hero-card-title">Direct system<br/>management</h3>
+                        <p class="hero-card-paragraph">
+                            Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.
+                        </p>
+                        <button class="hero-button">
+                            Learn more
+                            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"><path d="m16 8.4l-8.9 8.9q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7L14.6 7H7q-.425 0-.712-.288T6 6t.288-.712T7 5h10q.425 0 .713.288T18 6v10q0 .425-.288.713T17 17t-.712-.288T16 16z"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col hero-img-container">
+                <img class="hero-img" src="./images/laptop.jpeg" alt="Mujer con laptop">
+            </div>
+        </section>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
